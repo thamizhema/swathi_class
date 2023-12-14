@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:practice/my_class/class_1.dart';
 import 'package:practice/my_class/class_2.dart';
+import 'package:practice/my_class/my_alignment.dart';
 import 'package:practice/my_class/my_stack.dart';
 
 void main() {
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: title,
       debugShowCheckedModeBanner: false,
-      home: MyStack(),
+      home: MyAlignment(),
     );
   }
 }
